@@ -49,7 +49,7 @@ const Navbar = ({ href = "/", label = "Default" }) => {
           <Icon className="text-white" icon={label} width="32" height="32" />
         </Link> */}
         <div>
-          <p className="p-3 border border-white/15 text-white text-xs rounded-full">JawirAIv1.6.4</p>
+          <p className="p-3 border border-white/15 text-white text-xs rounded-full">ꦗꦮꦶꦫꦆꦌ (JawirAIv1.6.4)</p>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ const Navbar = ({ href = "/", label = "Default" }) => {
         </button>
 
         <ul className="space-y-[-12px] text-start">
-          <p className="text-3xl text-white m-3">Contribution</p>
+          <p className="text-3xl text-white m-3">Contributor</p>
           {ChatHistory.map((item, index) => (
             <li
               key={index}
