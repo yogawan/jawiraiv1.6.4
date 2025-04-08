@@ -10,9 +10,9 @@ const Navbar = ({ href = "/", label = "Default" }) => {
   };
 
   const ChatHistory = [
-    { label: "yogawan", path: "/", icon: "" },
-    { label: "lootzelui", path: "/", icon: "" },
-    { label: "mikodian", path: "/", icon: "" },
+    { label: "Yogawan Aditya Pratama", path: "https://github.com/yogawan", icon: "" },
+    { label: "Miko Dian Rachmadany", path: "https://github.com/mikodian", icon: "" },
+    { label: "Loo Tze Lui", path: "https://github.com/lootzelui", icon: "" },
   ];
 
   return (
@@ -73,7 +73,7 @@ const Navbar = ({ href = "/", label = "Default" }) => {
         </button>
 
         <ul className="space-y-[-12px] text-start">
-          <p className="text-3xl text-white m-3">Our Team</p>
+          <p className="text-3xl text-white m-3">Contribution</p>
           {ChatHistory.map((item, index) => (
             <li
               key={index}
